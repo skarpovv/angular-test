@@ -8,7 +8,8 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "lint": "ng lint",
-    "lint:fix": "ng lint --fix"
+    "lint:fix": "ng lint --fix",
+    "style:fix": "npx stylelint \"**/*.scss\" --fix"
   },
   "private": true,
   "dependencies": {
@@ -48,6 +49,8 @@
     "karma-jasmine-html-reporter": "~1.7.0",
     "prettier": "^2.7.1",
     "prettier-eslint": "^15.0.1",
+    "stylelint": "^14.9.1",
+    "stylelint-config-standard-scss": "^4.0.0",
     "typescript": "~4.6.2"
   }
 }
