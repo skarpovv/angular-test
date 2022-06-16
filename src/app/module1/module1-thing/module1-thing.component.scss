@@ -1,0 +1,16 @@
+.thing{
+  background-color: #2b4e87;
+  width: 130px;
+  height: 80px;
+  margin-right: 12px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  .title{
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .id{
+    text-align: right;
+    padding: 5px 10px 0 0;
+  }
+}

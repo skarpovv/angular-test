@@ -4,11 +4,17 @@ import { RouterModule, Routes } from '@angular/router';
 import { Module1MainComponent } from './module1-main/module1-main.component';
 import { Module1AreaComponent } from './module1-area/module1-area.component';
 import { Module1ThingComponent } from './module1-thing/module1-thing.component';
+import { ThingsByAreaIdPipe } from '../shared/pipes/things-by-area-id.pipe';
 
 const routes: Routes = [{ path: '', component: Module1MainComponent }];
 
 @NgModule({
-  declarations: [Module1MainComponent, Module1AreaComponent, Module1ThingComponent],
+  declarations: [
+    Module1MainComponent,
+    Module1AreaComponent,
+    Module1ThingComponent,
+    ThingsByAreaIdPipe,
+  ],
   imports: [CommonModule, RouterModule.forChild(routes)],
 })
 export class Module1Module {}
