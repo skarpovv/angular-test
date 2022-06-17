@@ -1,5 +1,6 @@
 .thing{
   position: relative;
+  z-index: 10;
   align-items: center;
   background-color: #2b4e87;
   width: 130px;
@@ -26,7 +27,6 @@
     width: 5px;
     height: 55px;
     background-color: #f4e700;
-    color: #2b4e87;
     border-radius: 0px 50px 50px 0px;
   }
   .statusClose{
@@ -35,7 +35,15 @@
     top: 12px;
     width: 5px;
     height: 55px;
-    color: #2b4e87;
     border-radius: 0px 50px 50px 0px;
+  }
+  .statusJoined{
+    background-color: #203d74;
+    position: absolute;
+    top: 12px;
+    left: -12px;
+    z-index: 1;
+    width: 12px;
+    height: 55px;
   }
 }
