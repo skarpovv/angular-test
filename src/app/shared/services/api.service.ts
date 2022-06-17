@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { delay, Observable } from 'rxjs';
+import { Observable } from 'rxjs';
 
 export interface Area {
   areaId: number;
@@ -17,9 +17,7 @@ export interface Thing {
   countActive: number;
 }
 
-@Injectable({
-  providedIn: 'root',
-})
+@Injectable()
 export class ApiService {
   constructor(private http: HttpClient) {}
 

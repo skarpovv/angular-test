@@ -1,5 +1,6 @@
 import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
-import { Thing } from '../../api.service';
+
+import { Thing } from '../../shared/services/api.service';
 
 @Component({
   selector: 'app-module1-thing',

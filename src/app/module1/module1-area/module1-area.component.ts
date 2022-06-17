@@ -4,7 +4,8 @@ import {
   Input,
   OnInit,
 } from '@angular/core';
-import { Area, Thing } from '../../api.service';
+
+import { Area, Thing } from '../../shared/services/api.service';
 
 @Component({
   selector: 'app-module1-area',

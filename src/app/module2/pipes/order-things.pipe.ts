@@ -1,5 +1,6 @@
 import { Pipe, PipeTransform } from '@angular/core';
-import { Thing } from '../../api.service';
+
+import { Thing } from '../../shared/services/api.service';
 
 @Pipe({
   name: 'orderThings',

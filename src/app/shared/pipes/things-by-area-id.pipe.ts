@@ -1,5 +1,5 @@
 import { Pipe, PipeTransform } from '@angular/core';
-import { Thing } from '../../api.service';
+import { Thing } from '../services/api.service';
 
 @Pipe({
   name: 'thingsByAreaId',

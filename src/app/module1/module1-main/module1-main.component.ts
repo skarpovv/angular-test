@@ -4,7 +4,8 @@ import {
   Component,
   OnInit,
 } from '@angular/core';
-import { ApiService, Area, Thing } from '../../api.service';
+
+import { ApiService, Area, Thing } from '../../shared/services/api.service';
 
 @Component({
   selector: 'app-module1-main',
