@@ -1,4 +1,7 @@
 <div class="thing">
-  <div class="id">{{ thing.sku }}</div>
+  <div
+    [class.statusOpen]="!thing.joinedWith && thing.status === 'open'"
+    [class.statusClose]="!thing.joinedWith && thing.status === 'closed'"></div>
   <div class="title">{{ thing.sku }}</div>
+  <div class="id">{{ thing.sku }}</div>
 </div>

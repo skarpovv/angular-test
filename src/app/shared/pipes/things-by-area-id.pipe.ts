@@ -7,7 +7,6 @@ import { Thing } from '../../api.service';
 })
 export class ThingsByAreaIdPipe implements PipeTransform {
   transform(things: Array<Thing>, id: number): Array<Thing> {
-    console.log(things, id);
     return things.filter(el => el.areaId === id);
   }
 }
